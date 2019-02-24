@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Resume-汪文鹏</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://cdn.gootile.com/admin_uploads/1550930125545_bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/fontawesome_5.7.2.min.css">
+    <link rel="stylesheet" href="https://cdn.gootile.com/admin_uploads/1550930372518_fontawesome_5.7.2.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="css/base.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- 
+        整个文档的Div容器
+    -->
+    <div id="resume-framework">
+      <div class="row">
+        <!--  左边模块包括头像，基本资料，个人简介，技能列表 -->
+        <div id="left-div">
+          <!-- 头像
+          <img id="avatar" alt="avatar" src="imgs/avatar.jpg"/> -->
+          <span>
+            <!-- 可以从font-awesome网站(https://fontawesome.com/icons)中搜索所需图标，
+            直接替换<i>标签class内内容即可
+            <h3>汪文鹏</h3> -->
+            <p class="name">汪文鹏</p>
+
+            <h5>求职意向：前端工程师</h5>
+            <h5 class="profile-item"><i class="fas fa-phone"></i> 178-1604-7007</h5>
+            <h5 class="profile-item"><i class="fas fa-envelope"></i> wwpeng520@gmail.com</h5>
+            <h5 class="profile-item"><i class="fab fa-github"></i> github.com/wwpeng520</h5>
+            <hr>
+          </span>
+
+          <div class="banner-div">
+            <span class="banner-span"><i class="white-icon fas fa-info-circle"></i>&nbsp;个人简介</span>
+          </div>
+          <p class="text-indent introduction">三年前端开发经验，熟悉 <b>React</b> / <b>React Native</b> 技术栈，独立开发多端 APP 及小程序项目。在创业公司野蛮生长了3年，经历了产品从无到有的过程，技术上也从前端涉猎到后端等。有较好的编码风格，注重代码质量和代码的健壮性与扩展性。深知行业技术发展日新月异，一直保持着不断学习的状态和不怕折腾的精神。有优秀的学习能力和团队沟通能力，经常与团队进行技术分享，能与团队共同成长。</p>
+          <hr>
+
+          <div class="banner-div">
+            <span class="banner-span"><i class="white-icon fas fa-skiing"></i>&nbsp;基本技能</span>
+          </div>
+          <h5><b>HTML / CSS</b></h5>
+          <p>- 能够编写语义化的 HTML，模块化的 CSS</p>
+          <p>- 熟悉 Sass / Less / PostCSS / Autoprefixer 等 CSS 预处理和模块化工具</p>
+
+          <h5><b>JavaScript</b></h5>
+          <p>- 熟悉 ES6 / ES7 语法，熟悉 TypeScript</p>
+          <p>- 能运用模块化、面向对象的方式编程</p>
+          <p>- 熟悉 React, UmiJS, DvaJS</p>
+          <p>- 掌握 eslint / prettier 等代码规范工具</p>
+
+          <h5><b>其 他</b></h5>
+          <p>- 熟悉 Node.js，了解 Egg / Koa / Express 框架</p>
+          <p>- 了解 Webpack 等前端自动化工具</p>
+          <p>- 其他 Git / SQL / Nginx / Docker / Redis</p>
+
+          <hr>
+          <div class="banner-div">
+            <span class="banner-span"><i class="white-icon fas fa-graduation-cap"></i>&nbsp;教育背景</span>
+          </div>
+          <h4>海南大学/211 <span class="title-extra">2008.09-2012.07</span></h4>
+          <h5>机械自动化 |&nbsp;3.12 / 4</h5>
+          <p>C语言基础 | 网页制作 | PLC技术与运用 | 计算机基础</p>
+        </div> <!-- end left-div -->
+
+        <!-- 右边模块开始，包括教育经历，工作经历，项目经验，志愿工作 -->
+        <div id="right-div">
+          <!-- 工作经历 -->
+          <div id="jobs">
+            <div class="banner-div">
+              <span class="banner-span">
+                <i class="white-icon fas fa-bug"></i>&nbsp;工作经历
+              </span>
+            </div>
+            
+            <!-- 第一份工作的介绍 -->
+            <h4>深圳咕呔科技有限公司</h4>
+            <p>2016年3月-2019年1月 | 前端工程师</p>
+            <!-- 第一个项目的介绍，多个项目可以复制project-span区块-->
+            <div class="project-span">
+              <p class="project-title">吸粉圈</p>
+              <p>项目描述：吸粉圈是一款针对特殊人群的，提供人脉拓展、信息采集及产品推广等服务的 APP。</p>
+              <p class="project-duty">项目职责：</p>
+              <ul>
+                <li>独自负责客户端（<b>React-Native</b> + <b>TypeScript</b> + <b>DvaJS</b>）从无到有的产品设计，用两个月的时间独立开发了初版的 APP，集成了支付模块、分享模块、文件下载，数据本地缓存等功能；</li>
+                <li>从第三方平台抓取 HTML / JSON 等格式数据，解析获取所需信息并保持到本地数据库（Realm），集成6个平台，减少被平台限制请求数，本地存取数据更快捷，大幅提高用户体验；</li>
+                <li>有新需求时，负责 APP 及后端 API（<b>Node.js</b> + <b>Egg</b>）的开发等，无需后端同学抽身，减少沟通成本，开发更快速；</li>
+                <li>负责管理后台（<b>React</b> + <b>ant-design-pro</b>）及 Web 页面的开发等。</li>
+              </ul> 
+              <p>难点：抓取第三方平台数据，管理 APP 本地数据</p>
+            </div> <!-- end project-span -->
+
+            <div class="project-span">
+              <p class="project-title">同步圈</p>
+              <p>项目描述：同步圈是一款同步用户微信朋友圈到微博的APP（iOS / Android）。用户只需发朋友圈，所发朋友圈动态会自动同步到对应微博上。</p>
+              <p class="project-duty">项目职责：</p>
+              <ul>
+                <li>与团队成员保持沟通，使用新技术方案主导项目进行重构，带来更丰富的交互效果，提高用户体验；</li>
+                <li>使用模块化开发方式，提高组件复用率，使得项目结构更清晰，易于后期拓展重构；</li>
+                <li>增加 H5 版本（<b>React</b> + <b>UmiJS</b> + <b>Sass</b>），APP 增加30%新功能。</li>
+              </ul> 
+              <p>难点：分享图片逻辑，依赖库问题</p>
+            </div>
+
+            <div class="project-span">
+              <p>其他项目：项目管理后台，代理池系统，微信公众号，公司网站等</p>
+            </div> 
+            <!-- 第一份工作结束 -->
+
+            <hr>
+            <h5><i class="far fa-dot-circle"></i> 个人项目</h5>
+            <div class="project-span">
+              <p class="project-title">漫学吉他 <span class="title-extra-2">- 小程序</span></p>
+              <p class="text-indent">个人用于学习的的小项目，目前只上线简单功能。前端采用 Taro / React + TypeScript + DvaJS 的组合，后端用 Node.js + Egg + PostgreSQL 实现，部署在阿里云的云服务器上。</p>
+            </div>
+            <div class="project-span">
+              <p class="project-title">我的博客 <span class="title-extra-2">- https://stormy.fun</span></p>
+              <p class="text-indent">个人技术博客，使用 Hexo 博客框架，采用 Markdown 语法。使用 Nginx 反向代理方式部署在 VPS 上。计划用 Gatsby 重构，因为它是一个基于 React 的静态网页产生器，使用但不限于 GraphQL 创建内容查询的能力。</p>
+            </div>
+            <div class="project-span">
+              <p class="project-title">在线工具网站 <span class="title-extra-2">- https://tools.stormy.fun</span></p>
+              <p class="text-indent">采用响应式布局方案（<b>bootstrap</b>），旨在前端不断学习过程中逐步实现一个提供特定功能且功能日益完善的工具类网站。实现中英文分词和词频统计，天气查询，IP 查询等常用小功能。后端基于 Node.js + Express + MySQL 实现。 </p>
+            </div>
+            
+          </div> <!-- end jobs -->
+
+          <div id="volunteer" style="margin-top: 18px;">
+            <div class="banner-div">
+              <span class="banner-span"><i class="white-icon fas fa-feather-alt"></i>&nbsp;其他属性</span>
+            </div>
+            <ul>
+              <li>注意代码规范，有代码洁癖，关注用户体验</li>
+              <li>爱折腾，不限于前端技术，博客地址：https://stormy.fun</li>
+            </ul>
+          </div>
+        </div> <!-- end right-div -->
+
+      </div> <!-- end row -->
+    </div> <!-- end resume-framework -->
+  </body>
+</html>

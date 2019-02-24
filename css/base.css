@@ -1,0 +1,159 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, PingFangSC-Regular, Tahoma, "Hiragino Sans GB", "Heiti SC", "Microsoft Yahei", sans-serif;
+}
+
+#resume-framework {
+    /* margin: 20px; */
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#avatar {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+#left-div {
+    display: inline-block;
+    width: 32%;
+    padding: 15px;
+    border-right: 1px solid #eaeaea;
+    /* box-sizing: border-box; */
+}
+
+#right-div {
+    width: 67%;
+    padding: 15px;
+    float: right;
+}
+
+.banner-div {
+    background-color: #FFC107;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.banner-span {
+    margin-left: 6px;
+    font-size: 16px;
+}
+
+.progress-item {
+    position : relative;
+}
+
+.progress-item .progress-title {
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.progress-item .progress {
+    height: 4px;
+    box-shadow: none;
+    border-radius: 5px;
+}
+
+.progress-item .progress-bar {
+    background-color: #FFC107;
+    box-shadow: none;
+    text-align: right;
+}
+
+.progress-item .progress-percent {
+    font-size: 10px;
+    background-color: #313131;
+    position: absolute;
+    top: 5px;
+    padding: 0 8px;
+    border-radius: 3px;
+}
+
+.progress-item .progress-percent::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    border-top: 6px solid #313131;
+    border-right: 8px solid transparent;
+}
+
+#left-div img {
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 22px;
+}
+
+.name {
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.profile-item {
+    line-height: 22px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+.introduction {
+    line-height: 24px; 
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.text-indent {
+    text-indent: 2em;
+}
+
+.project-span {
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.project-title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.project-duty {
+    margin-top: 5px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* padding-left: 15px;  */
+}
+
+ul li {
+    /* list-style-type: none; */
+    line-height: 22px;
+    margin-bottom: 3px;
+}
+li::before{
+    content: " - ";
+    color: #666666;
+    /* font-size: 20px; */
+}
+
+.title-extra {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444444;
+}
+.title-extra-2 {
+    font-size: 15px;
+    color: #666666;
+}
