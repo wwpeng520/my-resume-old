@@ -1,7 +1,7 @@
 # 我的简历
 
 [在线预览](https://wwpeng520.github.io/)
-![分享二维码]](./screenshot/screenshot.png)
+![分享二维码]](https://github.com/wwpeng520/wwpeng520.github.io/blob/master/screenshot/screenshot.png)
 
 本简历使用 HTML + CSS 编辑，使用 Bootstrap + Font-Awesome 字体实现。旨在实现可灵活定义样式，并导出 A4 大小 PDF 格式的简历，一次编辑即可实现在线简历和纸质简历的同时更改。
 
