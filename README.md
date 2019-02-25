@@ -6,6 +6,6 @@
 
 - HTML 格式转换成 PDF 格式需要安装 [wkhtmltopdf](https://wkhtmltopdf.org/) 和 [pdfkit](https://github.com/foliojs/pdfkit)，然后终端运行 python3 convert.py 即可。
 
-- convert.py 文件的 options 参数为生成 PDF 的参数
+- convert.py 文件的 options 参数为生成 PDF 的参数。
 
-- 把文件夹中的 HTML 文件中的文字内容修改为自己的信息，懂 HTML / CSS 的可以自定义调整布局样式
+- 把文件夹中的 HTML 文件中的文字内容修改为自己的信息，懂 HTML / CSS 的可以自定义调整布局样式。
