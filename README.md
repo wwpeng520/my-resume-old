@@ -12,4 +12,6 @@
 
 - 把文件夹中的 HTML 文件中的文字内容修改为自己的信息，懂 HTML / CSS 的可以自定义调整布局样式。
 
+- 转化成 PDF 文件可能会有 Font-Awesome 的字体显示为 “？”，测试发现多转化几次直到正确为止。
+
 ![image](https://github.com/wwpeng520/wwpeng520.github.io/blob/master/screenshot/screenshot.png)
