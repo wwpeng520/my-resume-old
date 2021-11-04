@@ -4,8 +4,8 @@ body {
 
 #resume-framework {
     position: relative;
-    margin: 20px;
-    padding: 20px;
+    /* margin: 20px; */
+    padding: 24px;
     border: 1px solid gray;
     border-radius: 5px;
 }
@@ -17,31 +17,64 @@ body {
 }
 
 #left-div {
-    display: inline-block;
-    width: 32%;
+    /* display: inline-block; */
+    width: 25%;
     padding: 15px;
     border-right: 1px solid #eaeaea;
+    box-sizing: border-box;
+    float: left;
 }
 
 #right-div {
-    width: 67%;
-    padding: 15px;
+    width: 75%;
+    /* padding: 15px; */
     float: right;
 }
 
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+.flag {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #f3f4f4;
+}
+
+/* start commented backslash hack \*/
+* html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
+}
+
 .banner-div {
-    background-color: #FFC107;
+    background-color: #0ab9d8;
     margin-bottom: 15px;
+    padding: 5px;
     border-radius: 8px;
 }
 
 .banner-span {
     margin-left: 6px;
     font-size: 15px;
+    /* color: #ffffff; */
 }
 
 .progress-item {
-    position : relative;
+    position: relative;
 }
 
 .progress-item .progress-title {
@@ -58,7 +91,7 @@ body {
 }
 
 .progress-item .progress-bar {
-    background-color: #FFC107;
+    background-color: #0ab9d8;
     box-shadow: none;
     text-align: right;
 }
@@ -116,12 +149,13 @@ p.skill {
 }
 
 .profile-item {
-    line-height: 22px;
+    line-height: 20px;
     font-size: 16px;
     letter-spacing: 0.5px;
 }
+
 .introduction {
-    line-height: 24px; 
+    line-height: 24px;
     font-size: 15px;
     font-weight: 300;
 }
@@ -142,6 +176,7 @@ p.skill {
     font-size: 16px;
     line-height: 24px;
 }
+
 .project-duty {
     margin-top: 5px;
 }
@@ -158,7 +193,8 @@ ul li {
     line-height: 21px;
     margin-bottom: 5px;
 }
-li::before{
+
+li::before {
     content: " - ";
     color: #666666;
     /* font-size: 20px; */
@@ -169,6 +205,7 @@ li::before{
     font-weight: 300;
     color: #444444;
 }
+
 .title-extra-2 {
     font-size: 15px;
     color: #666666;
